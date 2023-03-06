@@ -7,6 +7,7 @@ Go to each service folder and run `python app.py`. Services will run in debug mo
 То do requests, you can use curl:
 
 Example of get request: `curl -X GET ' http://localhost:5000/`
+
 Example of post request: `curl -X POST -H "Content-Type: application/json" -d '{"msg": "One"}' http://localhost:5000/`
 
 ## Notes
